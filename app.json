@@ -21,6 +21,10 @@
         "BOT_TOKEN": {
             "description": "Your bot token.",
             "required": true
+        }, 
+        "CUSTOM_FILE_CAPTION": {
+            "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
+            "required": false
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
